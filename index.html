@@ -12,24 +12,42 @@
 	<!-- main css -->
 	<link rel="stylesheet" href="css/main.css">
 </head>
-<style>
-	.header{
-		width: 100%;
-		height: 100vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		background: #000;
-	}
-	.header-nav{
-		color: #fff;
-		font-size: 40px;
-	}
-</style>
 <body>
+<div class="black-window black-window_active">
+	
+</div>
+<div class="modal-window modal-window_active">
+	<div class="modal-form">
+		<span class="modal__exit">
+			X
+		</span>
+		<span class="modal-form__title">
+			Заполни поля ниже
+		</span>
+		<p class="modal-form__subtitle">
+			И мы вышлем тебе план 
+			питания, который подходит 
+			для достижения твоей цели
+		</p>
+		<label for="" class="modal-form__label">
+			<input type="text" class="modal-form__input" placeholder="Ваше имя">
+		</label>
+		<label for="" class="modal-form__label">
+			<input type="text" class="modal-form__input" placeholder="+7 ( ___ ) ___ - __ - __">
+		</label>
+		<a href="#" class="btn modal-btn">
+			Оставить заявку
+		</a>
+		<input type="checkbox" id="modal__checkbox" checked>
+		<label for="modal__checkbox" class="modal__checkbox_title">
+			Я согласен с условиями обработки 
+			персональных данных
+		</label>
+	</div>
+</div>
 <header class="header header-block" id="header">
 	<nav class="header-nav">
-		Ожидание psd
+		
 	</nav>
 </header>
 <section class="">
